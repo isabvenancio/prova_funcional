@@ -6,3 +6,4 @@
   (/ (+ a b) 2))
 
 (media_aritmetica 10 20) ; 15
+
