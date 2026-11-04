@@ -8,6 +8,7 @@
 
 ; texto tamanho posicao -> texto
 (require examples)
+;;ola mundo! = 10 caracteres
 (examples
     (check-equal? (formata-texto "ola mundo!" 10 "centro") "ola mundo!")
     (check-equal? (formata-texto "ola mundo!" 20 "centro") "     ola mundo!     ")
