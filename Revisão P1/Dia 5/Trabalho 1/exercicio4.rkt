@@ -1,5 +1,5 @@
 #lang racket
-(require rakcunit)
+(require rackunit)
 
 ;pilha
 (struct pilha (topo) #:transparent)

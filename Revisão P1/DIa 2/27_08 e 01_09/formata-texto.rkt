@@ -7,9 +7,9 @@
 ;  - direita
 
 ; texto tamanho posicao -> texto
-(require examples)
+(require rackunit)
 ;;ola mundo! = 10 caracteres
-(examples
+(module+ test
     (check-equal? (formata-texto "ola mundo!" 10 "centro") "ola mundo!")
     (check-equal? (formata-texto "ola mundo!" 20 "centro") "     ola mundo!     ")
     (check-equal? (formata-texto "ola mundo!" 20 "esquerda") "ola mundo!          ")
